@@ -32,8 +32,8 @@ namespace AutoCADTestProject
                 {
                     LayerTableRecord layerTableRecord = tr.GetObject(layerTableRecorId, OpenMode.ForRead) as LayerTableRecord;
                  
-                } 
- 
+                }
+                var t = 12;
                 tr.Commit();
             }
            
