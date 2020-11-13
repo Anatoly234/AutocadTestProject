@@ -12,6 +12,7 @@ namespace AutoCADTestProject
     {
         /// <summary>
         /// Командный класс для тестовой команды
+        /// jkashkdhaskdfakshhask
         /// </summary>
         [CommandMethod("TestCommand")]
         public void RunCommand()
@@ -37,6 +38,10 @@ namespace AutoCADTestProject
                 tr.Commit();
             }
            
+        }
+        public void Ggg()
+        {
+
         }
     }
    
